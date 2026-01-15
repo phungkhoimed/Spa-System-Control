@@ -69,7 +69,7 @@ const Settings: React.FC<SettingsProps> = ({ staffList, serviceList, records, sh
               
               {isWarning && (
                 <div className="mt-2 text-xs bg-red-50 text-red-600 p-2 rounded">
-                  ⚠️ Lương > Doanh thu tạo ra ({formatCurrency(m.totalRevenue)})
+                  ⚠️ Lương {'>'} Doanh thu tạo ra ({formatCurrency(m.totalRevenue)})
                 </div>
               )}
             </div>
