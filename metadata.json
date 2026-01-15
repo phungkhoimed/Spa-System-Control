@@ -1,0 +1,5 @@
+{
+  "name": "Spa Control App",
+  "description": "Ứng dụng quản lý hiệu suất nhân viên, theo dõi doanh thu và tính lương cho Spa.",
+  "requestFramePermissions": []
+}
